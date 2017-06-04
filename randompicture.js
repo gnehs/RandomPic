@@ -1,5 +1,5 @@
 // 數字改成底下圖片的數量
-var imgnumber = Math.floor(Math.random() * 15);
+var imgnumber = Math.floor(Math.random() * 19);
 
 // *圖片後方加"," 但是最後一個不需要
 // 這些圖片是 CC0 網站拿來的 OuO
@@ -18,6 +18,10 @@ var imgurl = [
     '//i.imgur.com/CcG3J95.jpg',
     '//i.imgur.com/Z7PSFXE.jpg',
     '//i.imgur.com/d4bjGeB.jpg',
+    '//i.imgur.com/AUTVt3g.jpg',
+    '//i.imgur.com/EyGeh8i.jpg',
+    '//i.imgur.com/ezmuTGY.jpg',
+    '//i.imgur.com/6B8Q89f.jpg',
     '//i.imgur.com/mNdGZ17.jpg'
 ];
 
