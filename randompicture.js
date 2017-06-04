@@ -4,7 +4,6 @@ var imgnumber = Math.floor(Math.random()*15);
 // 您可以替換底下圖片網址來改變預設的隨機特色圖片
 // *圖片後方請加"," 但是最後一個不需要
 // 你可以自行刪掉這些註解
-//http://imgur.com/a/3iqnt
 var imgurl = [
     'https://i.imgur.com/8PAkaT5.jpg',
     'https://i.imgur.com/97za76I.jpg',
