@@ -8,5 +8,5 @@
 ```
 然後他會輸出
 ```
-<img src="https://i.imgur.com/Z7PSFXE.jpg">
+<img src="//i.imgur.com/Z7PSFXE.jpg">
 ```
