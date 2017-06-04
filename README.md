@@ -4,7 +4,7 @@
 ## 開始使用
 把這個放在你想顯示圖片的地方
 ```
-<script src="randompicture.js"></script>
+<script src="//rawgit.com/gnehs/RandomPic/master/randompicture.js"></script>
 ```
 然後他會輸出
 ```
