@@ -1,6 +1,3 @@
-// 數字改成底下圖片的數量
-var imgnumber = Math.floor(Math.random() * 19);
-
 // *圖片後方加"," 但是最後一個不需要
 // 這些圖片是 CC0 網站拿來的 OuO
 var imgurl = [
@@ -24,6 +21,7 @@ var imgurl = [
     '//i.imgur.com/6B8Q89f.jpg',
     '//i.imgur.com/mNdGZ17.jpg'
 ];
-
+//算出要輸出的圖片
+var imgnumber = Math.floor(Math.random() * imgurl.length);
 //輸出隨機特色圖片
 document.write('<img src="'+imgurl[imgnumber]+'">');
