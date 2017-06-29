@@ -1,5 +1,6 @@
 // *圖片後方加"," 但是最後一個不需要
 // 這些圖片是 CC0 網站或是可商用圖庫拿來的 OuO
+// 喔對還放了一些我拍的www
 var imgurl = [
     '//i.imgur.com/8PAkaT5.jpg',
     '//i.imgur.com/97za76I.jpg',
@@ -25,6 +26,12 @@ var imgurl = [
     '//i.imgur.com/Qv4WRBP.jpg',
     '//i.imgur.com/LyT05fo.jpg',
     '//i.imgur.com/Nj7DxiH.jpg',
+    '//i.imgur.com/ltyLKfy.jpg',
+    '//i.imgur.com/gSmnLod.jpg',
+    '//i.imgur.com/VzIUmmB.jpg',
+    '//i.imgur.com/2kOe547.jpg',
+    '//i.imgur.com/nHkZGh0.jpg',
+    '//i.imgur.com/ObkQyqf.jpg',
 ];
 //算出要輸出的圖片
 var imgnumber = Math.floor(Math.random() * imgurl.length);
