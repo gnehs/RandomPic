@@ -14,7 +14,6 @@ var imgurl = [
     '//i.imgur.com/y6GIgER.jpg',
     '//i.imgur.com/CcG3J95.jpg',
     '//i.imgur.com/Z7PSFXE.jpg',
-    '//i.imgur.com/d4bjGeB.jpg',
     '//i.imgur.com/AUTVt3g.jpg',
     '//i.imgur.com/EyGeh8i.jpg',
     '//i.imgur.com/ezmuTGY.jpg',
