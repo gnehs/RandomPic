@@ -1,7 +1,13 @@
-// *圖片後方加"," 但是最後一個不需要
-// 這些圖片是 CC0 網站或是可商用圖庫拿來的 OuO
-// 喔對還放了一些我拍的www
-var imgurl = [
+// ================================
+// 隨機圖片
+// ================================
+// 最後更新 2017/7/2
+// ================================
+// 圖片來源：
+// - 網路 CC0 圖庫
+// - 棒棒勝提供
+// ================================
+var img = [
     '//i.imgur.com/8PAkaT5.jpg',
     '//i.imgur.com/97za76I.jpg',
     '//i.imgur.com/G9kdJTn.jpg',
@@ -32,8 +38,20 @@ var imgurl = [
     '//i.imgur.com/2kOe547.jpg',
     '//i.imgur.com/nHkZGh0.jpg',
     '//i.imgur.com/ObkQyqf.jpg',
+    '//i.imgur.com/KdFGVYt.jpg',
+    '//i.imgur.com/2hPLTDd.jpg',
+    '//i.imgur.com/E8LxPuP.jpg',
+    '//i.imgur.com/buLbzHL.jpg',
+    '//i.imgur.com/7IGDX0M.jpg',
+    '//i.imgur.com/OsmmmCr.jpg',
+    '//i.imgur.com/b3RxxYJ.jpg',
+    '//i.imgur.com/57jDFCk.jpg',
+    '//i.imgur.com/nSAojC0.jpg',
+    '//i.imgur.com/2dGQscv.jpg',
+    '//i.imgur.com/IHOoKiC.jpg',
+    '//i.imgur.com/fdLyKOy.jpg',
 ];
 //算出要輸出的圖片
-var imgnumber = Math.floor(Math.random() * imgurl.length);
-//輸出隨機特色圖片
-document.write('<img src="'+imgurl[imgnumber]+'">');
+var imgnum = Math.floor(Math.random() * img.length);
+//輸出隨機圖片
+document.write('<img src="'+img[imgnum]+'">');
