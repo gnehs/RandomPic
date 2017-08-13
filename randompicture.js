@@ -48,7 +48,6 @@ var img = [
     '//i.imgur.com/57jDFCk.jpg',
     '//i.imgur.com/nSAojC0.jpg',
     '//i.imgur.com/IHOoKiC.jpg',
-    '//i.imgur.com/fdLyKOy.jpg',
 ];
 //算出要輸出的圖片
 var imgnum = Math.floor(Math.random() * img.length);
