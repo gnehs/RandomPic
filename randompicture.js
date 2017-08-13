@@ -1,7 +1,7 @@
 // ================================
 // 隨機圖片
 // ================================
-// 最後更新 2017/7/2
+// 最後更新 2017/8/13
 // ================================
 // 圖片來源：
 // - 網路 CC0 圖庫
@@ -13,7 +13,6 @@ var img = [
     '//i.imgur.com/G9kdJTn.jpg',
     '//i.imgur.com/oyoQlIO.jpg',
     '//i.imgur.com/TuZRBRR.jpg',
-    '//i.imgur.com/IIai94v.jpg',
     '//i.imgur.com/pfaWNb9.jpg',
     '//i.imgur.com/4qtsOf2.jpg',
     '//i.imgur.com/Gg0HJa8.jpg',
