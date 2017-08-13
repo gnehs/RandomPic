@@ -10,7 +10,6 @@
 var img = [
     '//i.imgur.com/8PAkaT5.jpg',
     '//i.imgur.com/97za76I.jpg',
-    '//i.imgur.com/G9kdJTn.jpg',
     '//i.imgur.com/oyoQlIO.jpg',
     '//i.imgur.com/TuZRBRR.jpg',
     '//i.imgur.com/pfaWNb9.jpg',
