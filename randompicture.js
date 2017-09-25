@@ -41,7 +41,6 @@ var img = [
     '//i.imgur.com/E8LxPuP.jpg',
     '//i.imgur.com/buLbzHL.jpg',
     '//i.imgur.com/7IGDX0M.jpg',
-    '//i.imgur.com/OsmmmCr.jpg',
     '//i.imgur.com/b3RxxYJ.jpg',
     '//i.imgur.com/57jDFCk.jpg',
     '//i.imgur.com/nSAojC0.jpg',
