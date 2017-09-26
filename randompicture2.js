@@ -7,7 +7,7 @@
 // - 網路 CC0 圖庫
 // - 棒棒勝提供
 // ================================
-var img = [
+let img = [
     '//i.imgur.com/8PAkaT5.jpg',
     '//i.imgur.com/97za76I.jpg',
     '//i.imgur.com/oyoQlIO.jpg',
@@ -46,7 +46,4 @@ var img = [
     '//i.imgur.com/nSAojC0.jpg',
     '//i.imgur.com/IHOoKiC.jpg',
 ];
-//算出要輸出的圖片
-var imgnum = Math.floor(Math.random() * img.length);
-//輸出隨機圖片
-document.write('<img src="' + img[imgnum] + '">');
+for(let i of document.getElementsByClassName("randomPic"))i.src=img[Math.floor(Math.random() * img.length)];
