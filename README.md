@@ -5,13 +5,12 @@
 ### V1
 把這個放在你想顯示圖片的地方
 ```
-<script src="randompicture.js"></script>
+<script src="//gnehs.github.io/RandomPic/randompicture.js"></script>
 ```
 然後他會輸出
 ```
 <img src="//i.imgur.com/Z7PSFXE.jpg">
 ```
-
 ### V2 (支援非同步載入)
 先載入本 script
 ```
@@ -25,7 +24,5 @@
 ```
 <img class="randomPic" src="//i.imgur.com/Z7PSFXE.jpg">
 ```
-
-=======
 ## 官網
 這是官網，讓你看他有多棒棒 https://gnehs.github.io/RandomPic/
