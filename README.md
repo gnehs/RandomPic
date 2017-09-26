@@ -2,11 +2,15 @@
 這是一個拿來輸出隨機圖片的東西
 
 ## 開始使用
-把這個放在你想顯示圖片的地方
+先載入本 script
 ```
-<script src="randompicture.js"></script>
+<script src="randompicture.js" defer="true"></script>
+```
+然後在想放隨機圖片的地方加入
+```
+<img class="randomPic">
 ```
 然後他會輸出
 ```
-<img src="//i.imgur.com/Z7PSFXE.jpg">
+<img class="randomPic" src="//i.imgur.com/Z7PSFXE.jpg">
 ```

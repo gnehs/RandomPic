@@ -1,17 +1,17 @@
-// 數字，請改成底下圖片的數量
-var imgnumber = Math.floor(Math.random() * 15);
-
-// 您可以替換底下圖片網址來改變預設的隨機特色圖片
-// *圖片後方請加"," 但是最後一個不需要
-// 你可以自行刪掉這些註解
-// 這些圖片是 CC0 網站拿來的 OuO
-var imgurl = [
+// ================================
+// 隨機圖片
+// ================================
+// 最後更新 2017/8/13
+// ================================
+// 圖片來源：
+// - 網路 CC0 圖庫
+// - 棒棒勝提供
+// ================================
+let img = [
     '//i.imgur.com/8PAkaT5.jpg',
     '//i.imgur.com/97za76I.jpg',
-    '//i.imgur.com/G9kdJTn.jpg',
     '//i.imgur.com/oyoQlIO.jpg',
     '//i.imgur.com/TuZRBRR.jpg',
-    '//i.imgur.com/IIai94v.jpg',
     '//i.imgur.com/pfaWNb9.jpg',
     '//i.imgur.com/4qtsOf2.jpg',
     '//i.imgur.com/Gg0HJa8.jpg',
@@ -19,9 +19,31 @@ var imgurl = [
     '//i.imgur.com/y6GIgER.jpg',
     '//i.imgur.com/CcG3J95.jpg',
     '//i.imgur.com/Z7PSFXE.jpg',
-    '//i.imgur.com/d4bjGeB.jpg',
-    '//i.imgur.com/mNdGZ17.jpg'
+    '//i.imgur.com/AUTVt3g.jpg',
+    '//i.imgur.com/EyGeh8i.jpg',
+    '//i.imgur.com/ezmuTGY.jpg',
+    '//i.imgur.com/6B8Q89f.jpg',
+    '//i.imgur.com/mNdGZ17.jpg',
+    '//i.imgur.com/jMsSAxp.jpg',
+    '//i.imgur.com/9vJb7JL.jpg',
+    '//i.imgur.com/ngc15zI.jpg',
+    '//i.imgur.com/Qv4WRBP.jpg',
+    '//i.imgur.com/LyT05fo.jpg',
+    '//i.imgur.com/Nj7DxiH.jpg',
+    '//i.imgur.com/ltyLKfy.jpg',
+    '//i.imgur.com/gSmnLod.jpg',
+    '//i.imgur.com/VzIUmmB.jpg',
+    '//i.imgur.com/2kOe547.jpg',
+    '//i.imgur.com/nHkZGh0.jpg',
+    '//i.imgur.com/ObkQyqf.jpg',
+    '//i.imgur.com/KdFGVYt.jpg',
+    '//i.imgur.com/2hPLTDd.jpg',
+    '//i.imgur.com/E8LxPuP.jpg',
+    '//i.imgur.com/buLbzHL.jpg',
+    '//i.imgur.com/7IGDX0M.jpg',
+    '//i.imgur.com/b3RxxYJ.jpg',
+    '//i.imgur.com/57jDFCk.jpg',
+    '//i.imgur.com/nSAojC0.jpg',
+    '//i.imgur.com/IHOoKiC.jpg',
 ];
-
-//輸出隨機特色圖片
-document.write('<img src="'+imgurl[imgnumber]+'">');
+for(let i of document.getElementsByClassName("randomPic"))i.src=img[Math.floor(Math.random() * img.length)];
